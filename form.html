@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="banner">
+          <img
+            src="odin-lined.png"
+            alt="odin-lined"
+          />
+          <h2 id="odin">ODIN</h2>
+        </div>
+        <span
+          >Photo by
+          <a href="https://unsplash.com/@fabhimantra">Fadhil Abhimantra </a> on
+          <a
+            href="https://unsplash.com/photos/a-man-and-his-eagle-look-stoically-ahead-IduY1QsDWBc"
+            >Unsplash</a
+          ></span
+        >
+      </div>
+      <div class="right">
+        <div class="text">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+
+          <p>You <em>know</em> you want to</p>
+        </div>
+        <h3>Let's do this</h3>
+        <div class="form-container">
+          <form
+            action="https://httpbin.org/post"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john.doe@gmail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number</label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                name="phoneNumber"
+                placeholder="08040102292"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Confirm Password</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                required
+              />
+            </div>
+          </form>
+        </div>
+        <div class="bottom">
+          <button type="submit">Create account</button>
+          <br />
+          <br />
+          <div class="login">
+            <p>Already have an account?</p>
+            <span> Log in</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
